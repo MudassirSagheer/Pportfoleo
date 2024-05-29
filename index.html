@@ -1,122 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="p1.css">
-    <script src="p1.js"></script>
-    <title>project 1</title>
-</head>
-<body>
-<header>
-    <nav>
-        <img src="vvvvvvvvvvvv.png" alt="">
-        <ul class="center dis as"  >
-
-           <li><a href="">Home</a> </li>
-           <li><a href="">About</a> </li>
-           <li><a href="">Projects</a> </li>
-           <li><a href="">Design</a> </li>
-           <li><a href="">Contact</a> </li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <div class="cs dis">
-        <h1>I am Mudassir Sagheer</h1>
-        <img src="xxxxxxxxxxxxxxxxxxxxxx.gif" alt="">
-    </div>
-    <hr class="vb">
-    <div class="ht dis">
-        <img src="tinywow_change_bg_photo_47969401.jpg" alt="">
-        <div class="qw ">
-            <h1 class="center">About Me</h1>
-           
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur delectus numquam minus et rerum, fugit expedita quod eos libero impedit, suscipit voluptate dolore, quas dolorum quae odit a dicta officiis! <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio recusandae assumenda deleniti exercitationem fugiat tempore, nulla neque doloremque explicabo illum a sit magni distinctio, adipisci, dolor maxime accusamus nobis quae!</p>
-           
-        </div>
-
-    </div>
-    <hr class="vb">
-   <div class="pro">
-    <h1 class="center" style="font-size: 5rem; color: rgb(12, 163, 12);">My Projects</h1>
-    <div class="hm">
-        <li><a href="">Functional Website➲</a><br></li>
-        <li><a href="">Portfolio➲</a><br></li>
-        <li><a href="">Responsive Website➲</a><br></li>
-        <li><a href="">Paralex Website➲</a><br></li>
-        <li><a href="">Landing Page➲</a><br></li>
-        <li><a href="">Restorent Website➲</a><br></li>
-        <li><a href="">E-Comerace website➲</a><br></li>
-        <li><a href="">Event Page➲</a><br></li>
-        <li><a href="">Music Store Page➲</a><br></li>
-    </div>
-
-   </div>
-   <hr class="vb">
-   <h1 class="df center">Contect Us</h1>
-   <div class="fh center dis">
-    
-    <form action="php" method="get" class=" ">
-        <label for="name">Name:</label><br>
-        <input type="text" name="Name" class="dsx"><br>
-        <label for="Email">Email:</label><br>
-        <input type="text" name="Email" class="dsx"><br>
-        <label for="Phone">Phone:</label><br>
-        <input type="text"Phone" class="dsx"><br>
-        <label for="textarea">Message:</label><br>
-        <textarea name="Message" id="Msg" cols="20" rows="10"></textarea><br>
-        <input class="rd" type="submit">
-
-
+    <link rel="stylesheet" href="p2.css">
+    <script src="p2.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.3/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
         
+       <link rel="stylesheet" media="screen and (max-width:1048px)"href="p22.css"> 
+       <!--<link rel="stylesheet" media="screen and (max-width:428px)"href="p222.css"> -->
+        <link rel="stylesheet" media="screen" href="p23.css">
+           <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>My Port folio</title>
+</head>
 
-    </form>
-    <form id="bb" action="">
+<body>
+    <header>
+        <nav class="">
+           <div id="logo" class="logo"> <a href="">Portfolio</a>
+            <a class="exe" href="#un" ><i id="cu" style="color: cyan; font-size: 30px;" class="bi bi-card-list "></i></a> 
+            </div>
+            
+            <div id="un" class="ul dl dh">
 
-        <div class="cmb sd">
-            <div class="inn">
-                <div class="cas">
-                    <div class="dsl">
-                        <input type="text" class="vn dh" placeholder="Enter your name" id="input1" autocomplete="off">
-                        <div class="csda">please fill it with yor name</div>
-                    </div> 
-                    <div class="dsl">
-                        <input type="text" class="vn dh" placeholder="Enter your Email" id="input2"
-                            autocomplete="off">
-                        <div class=" nan csda">please fill it with yor Email</div>
+                <a href="#ed" style="--i:1">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#fkl">Services</a>
+                <a href="#skill1">Skills 1</a>
+                <a href="#skill2">Skills 2</a>
+                <a href="#a1" style="--i:3">Projects</a>
+                <a href="#contact" style="--i:4">Contact</a>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="ed" id="ed">
+            <div class="home">
+                <div class="p1">
+                    <div class="p2">
+                        <h3>Hello, It's Me</h3>
+                        <h1>Mudassir Sagheer</h1>
+                        <h3>And I'm a <span id="element"></span></h3>
+                    </div>
+                    <p class="gree" style="font-size: 25px;">I am a Web Designer with one year of experience <br>
+                        expertiese is to create a Website Design,<br> Frontend Design and Backend.</p>
+                    <div class="it">
+                        <a href="" style="--i:5"><i class="bi bi-facebook"></i></a>
+                        <a href="" style="--i:6"><i class="bi bi-instagram"></i></a>
+                        <a href="" style="--i:7"><i class="bi bi-whatsapp"></i></a>
+                        <a href="" style="--i:8"><i class="bi bi-linkedin"></i></a>
+
+
+                    </div>
+                    <div class="gj">
+                        <a href="">More about Me</a>
                     </div>
                 </div>
-                <div class="cas">
-                    <div class="dsl">
-                        <input type="text" class="vn dh" placeholder="Enter your phone" id="input3"
-                            autocomplete="off">
-                        <div class=" nan csda">please fill it with yor phone number</div>
-                    </div>
-                    <div class="dsl">
-                        <input type="text" class="vn dh" placeholder="Enter your subject" id="input4"
-                            autocomplete="off">
-                        <div class=" nan csda">please fill it with yor subject</div>
-                    </div>
-
+                <div class="fg">
+                    <img src="45454.jpg" alt="">
                 </div>
+            </div>
+
+        </section>
+        <span class="dfr"></span>
+        <section class="about" id="about">
+            <div class="imag">
+                <img src="45454.gif" alt="">
             </div>
             <div class="dsl">
-                <textarea name="" class="vn txt " id="textarea" cols="30" rows="10" placeholder="your message"
-                    autocomplete="off"></textarea>
-                <div class=" nan csda4">please fill it with yor message</div>
+                <h1 style="margin: 10px; font-size: 4rem;">About <span style="color: cyan;">Me</span></h1>
+                <h4 style="margin: 5px;">Full Stack Developer</h4>
+                <p>Want a professional UI UX designer to write your UX UI portfolio or your design challenge?
+                    Looking for someone with knowledge in user research, design systems, accessibility, and user
+                    interface
+                    writing to help elevate your case studyFor over 3 years I have been driven to apply my creativity
+                    and
+                    gained knowledge on a diverse collection of user research UX projects. I'm familiar with the Nielsen
+                    Norman's Design Thinking approach, and will leverage my experience in the field to write you an
+                    industry-proven case study to help you land that UX UI job</p>
+            </div>
+
+        </section>
+        <div class="la">
+            <div class="gj">
+                <a href="" id="fkl" style="">More about Me</a>
+            </div>
+        </div>
+        <section class="fkl">
+
+            <h1
+                style="text-align: center;  font-size: 4rem; color: #fff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                My <span style="color: cyan;">Services</span></h1>
+            <div class="csl">
+                <div class="fgj">
+                    <i class="bi bi-code-slash "
+                        style="font-size: 3rem; text-shadow: 2px 2px 4px cyan,-4px -2px 10px cyan;color: cyan;"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem impedit distinctio culpa
+                        quibusdam. Possimus inventore maiores tempora eos veritatis repellat adipisci atque quibusdam,
+                        quae
+                        expedita. Nostrum quibu
+
+                    </p>
+                    <a href="">More About Me</a>
+                </div>
+                <div class="fgj">
+                    <i class="bi bi-crop"
+                        style="font-size: 3rem; text-shadow: 2px 2px 4px cyan,-4px -2px 10px cyan;color: cyan;"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem impedit distinctio culpa
+                        quibusdam. Possimus inventore maiores tempora eos veritatis repellat adipisci atque quibusdam,
+                        quae
+                        expedita. Nostrum quibu
+
+                    </p>
+                    <a href="">More About Me</a>
+                </div>
+                <div class="fgj">
+                    <i class="bi bi-github "
+                        style="font-size: 3rem; text-shadow: 2px 2px 4px cyan,-4px -2px 10px cyan;color: cyan;"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem impedit distinctio culpa
+                        quibusdam. Possimus inventore maiores tempora eos veritatis repellat adipisci atque quibusdam,
+                        quae
+                        expedita. Nostrum quibu
+
+                    </p>
+                    <a href="">More About Me</a>
+                </div>
 
             </div>
-            <div class="cas">
-                <button class=" ccx" id="ms">Submit</button>
+            <i class="bi bi-0-circle-fill" id="skill1"></i>
+        </section>
+        <h1
+            style="text-align: center;  font-size: 4rem; color: #fff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            My <span style="color: cyan;">Skills</span></h1>
+
+        <section class="za" id="za">
+
+            <h1 class="po">Technical Skills</h1>
+            <section class="muj" id="">
+                <div class="c21">
+                    <div class="bar">
+                        <img src="html-5_5968267-removebg-preview (1).png" alt="">
+
+                        <h1>HTML</h1>
+                    </div>
+                    <div class="line">
+                        <span class="span1"></span>
+                        <div class="mud">75%</div>
+                        <div class="hghs"></div>
+                        <div class="nhj"></div>
+                    </div>
+                    <div class="bar">
+                        <img src="social_11516361-removebg-preview.png" alt="">
+                        <h1>CSS</h1>
+                    </div>
+                    <div class="line">
+                        <span class="span2"></span>
+                        <div class="mud">90%</div>
+                        <div class="hghs"></div>
+
+                    </div>
+                </div>
+                <div class="c21">
+                    <div class="bar">
+                        <img src="js_5968292.jpg" alt="">
+                        <h1>JavaScript</h1>
+                    </div>
+                    <div class="line">
+                        <span class="span3"></span>
+                        <div class="mud">60%</div>
+                        <div class="hghs"></div>
+                    </div>
+                    <div class="bar">
+                        <img src="python-removebg-preview.png" alt="">
+                        <h1>Python</h1>
+                    </div>
+                    <div class="line">
+                        <span class="span4"></span>
+                        <div class="mud">95%</div>
+                        <div class="hghs"></div>
+                    </div>
+                </div>
+            </section><br>
+            <section class="rad" id="skill2">
+                <h1 class="po" id="">Professional Skills</h1>
+                <div class="circle">
+                    <div class="c21">
+                        <div class="mn">
+                            <div class="casa"></div>
+                            <svg viewBox="0 0 36 36">
+                                <circle stroke="#504545" fill="none" cx="18" cy="18" r="16" stroke-width="4" />
+                                <circle id="bar" stroke="aqua" fill="none" stroke-dasharray="75, 100"
+                                    stroke-linecap="round" cx="18" cy="18" r="16" stroke-width="4"
+                                    transform="rotate(-90 18 18)" />
+                                <h1 class="rel">75%</h1>
+                            </svg>
+                            <h1 class="pol">Problem Solving</h1>
+                            <div class="no"></div>
+                        </div>
+                        <div class="mn">
+                            <div class="casa"></div>
+                            <svg viewBox="0 0 36 36">
+                                <circle stroke="#504545" fill="none" cx="18" cy="18" r="16" stroke-width="4" />
+                                <circle id="bar" stroke="aqua" fill="none" stroke-dasharray="90, 100"
+                                    stroke-linecap="round" cx="18" cy="18" r="16" stroke-width="4"
+                                    transform="rotate(-90 18 18)" />
+                                <h1 class="rel">90%</h1>
+                            </svg>
+                            <h1 class="pol">Creativity</h1>
+                            <div class="no"></div>
+                        </div>
+                    </div>
+                    <div class="c21">
+                        <div class="mn">
+                            <div class="casa"></div>
+                            <svg viewBox="0 0 36 36">
+                                <circle stroke="#504545" fill="none" cx="18" cy="18" r="16" stroke-width="4" />
+                                <circle id="bar" stroke="aqua" fill="none" stroke-dasharray="85, 100"
+                                    stroke-linecap="round" cx="18" cy="18" r="16" stroke-width="4"
+                                    transform="rotate(-90 18 18)" />
+                                <h1 class="rel">85%</h1>
+                            </svg>
+                            <h1 class="pol">Communication</h1>
+                            <div class="no"></div>
+                        </div>
+                        <div class="mn">
+                            <div class="casa"></div>
+                            <svg viewBox="0 0 36 36">
+                                <circle stroke="#504545" fill="none" cx="18" cy="18" r="16" stroke-width="4" />
+                                <circle id="bar" stroke="aqua" fill="none" stroke-dasharray="70, 100"
+                                    stroke-linecap="round" cx="18" cy="18" r="16" stroke-width="4"
+                                    transform="rotate(-90 18 18)" />
+                                <h1 class="rel">70%</h1>
+                            </svg>
+
+                            <h1 class="pol"> Teamworkh</h1>
+                            <div class="no"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <h1 id="a1"
+                    style="text-align: center;  font-size: 4rem; color: #fff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+                    My <span style="color: cyan;">Projects</span></h1>
+                <div class="lu">
+                    <div class="sql">
+                        <h1><a class="nun" href="">➲ Todo list</a></h1>
+                        <p
+                            style="  color: white;  font-size: 22px ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum velit placeat eos
+                            natus soluta optio facere dolore aspernatur eum!</p>
+                    </div>
+                    <div class="sql">
+                        <h1><a class="nun" href="">➲ Online Store Website</a></h1>
+                        <p
+                            style="  color: white;  font-size: 22px ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum velit placeat eos
+                            natus soluta optio facere dolore aspernatur eum!</p>
+                    </div>
+                    <div class="sql">
+                        <h1><a class="nun" href="">➲ Weather App</a></h1>
+                        <p
+                            style="  color: white;  font-size: 22px ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum velit placeat eos
+                            natus soluta optio facere dolore aspernatur eum!</p>
+                    </div>
+                    <div class="sql">
+                        <h1><a class="nun" href="">➲ Portfolio</a></h1>
+                        <p
+                            style="  color: white;  font-size: 22px ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum velit placeat eos
+                            natus soluta optio facere dolore aspernatur eum!</p>
+                    </div>
+                    <div class="sql">
+                        <h1><a class="nun" href="">➲ Todo list</a></h1>
+                        <p
+                            style="  color: white;  font-size: 22px ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum velit placeat eos
+                            natus soluta optio facere dolore aspernatur eum!</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <h1
+            style="text-align: center;  font-size: 4rem; color: #fff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            Contact <span style="color: cyan;">Us</span></h1>
+        <section class="Contact" id="contact">
 
 
-            </div>
-    </form>
-   </div>
-</main>
-<footer class="center dis">
-   <b>All Rights Reserved 2024 &copy;Ms Designers</b>
-</footer>
-</body> 
+
+            <form class="rem" id="myForm">
+                <div class="sam">
+                    <div class="cs">
+                        <div class="jk">
+                            <div class="sm">
+                                <h3 style="color: #fff;"> Name:</h3>
+                                <input type="text" class="red c" id="input1" placeholder="Input 1"><span id="warning1"
+                                    class="warning gl"></span>
+                            </div>
+                            <div class="sm">
+                                <h3 style="color: #fff;"> Email:</h3>
+                                <input type="text" class="red c" id="input2" placeholder="Input 2"><span id="warning2"
+                                    class="warning gl"></span>
+                            </div>
+                        </div>
+                        <div class="jk">
+
+                            <div class="sm">
+                                <h3 style="color: #fff;"> Phone:</h3>
+                                <input type="text" class="red c" id="input3" placeholder="Input 3"><span id="warning3"
+                                    class="warning gl"></span>
+                            </div>
+                            <div class="sm">
+                                <h3 style="color: #fff;"> Subject:</h3>
+                                <input type="text" class="red c" id="input4" placeholder="Input 4"><span id="warning4"
+                                    class="warning gl"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 style="color: #fff;
+                    margin-left: 10px;"> Message:</h3>
+                    <textarea id="textarea" placeholder="Textarea" class="c"></textarea><span id="warning5"
+                        class="warning bl "></span><br>
+                    <input class="ead" type="submit" value="Submit" style="margin-top: 30px;margin-bottom: 30px;">
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer style="background-color: aqua;
+color: #0e0d0c;
+width: 100%;
+height: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 18px;">
+        <h4 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Copyrights &copy;
+            Ms Designers : All Rights Reserved </h4>
+    </footer>
+   
+</body>
+
 </html>
