@@ -1,0 +1,76 @@
+nav{
+    width: 100%;
+}
+.home{
+    flex-direction: column;
+}
+.p1{
+    font-size: 16px;
+    margin-left: 53px;
+    margin-top: 292px;
+}
+.fg{
+    position: absolute;
+  top: 2px;
+  margin-left: 62px;
+}
+.fg img{
+    width: 200px;
+}
+p1 p{
+    font-size: 23px;
+  width: 330px;
+}
+.it{
+    font-size: 25px;
+}
+.gj{
+    margin-left: 1vh;
+}
+.gree{
+    width: 330px;
+}
+.it a i{
+    padding: 16px;
+}
+#about{
+    flex-direction: column;
+}
+.imag img{
+    width: 205px;
+}
+.dsl{
+    font-size: 20px;
+  width: 276px;
+}
+.dsl h1{
+    font-size: 50px;
+}
+.fgj{
+    font-size: 18px;
+    margin: 33px;
+}
+.muj{
+    flex-direction: column;
+}
+.line{
+    width: 230px;
+}
+.sql{
+    margin: 20px 50px;
+}
+.cs{
+    flex-direction: column;
+}
+textarea{
+    width: 280px;
+}
+.ead{
+    margin-left: 110px;
+}
+/**/i{
+    border: 4px solid white;
+}
+.c21{
+    width: 250px;
+}

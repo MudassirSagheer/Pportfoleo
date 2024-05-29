@@ -1,0 +1,130 @@
+header{
+  position: fixed;
+  height: 50px;
+  display: grid;
+  width: 100%;
+  background-color: #55505079;
+  box-shadow: 0px 1.5px 3px aqua;
+  z-index: 100;
+}
+.p1{
+  font-size: 25px;
+  margin-left: 97px;
+  font-weight: 700;
+  margin-top: 563px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+  font-size: 23px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline;
+  margin-top: 180px;
+}
+.dsl{
+    display: flex;
+  flex-direction: column;
+  width: 84%;
+  margin-left: 50px;
+}
+.ds h1{
+    margin: 10px;
+    font-size: 50px;
+}
+.imag img{
+    border: 5px solid aqua;
+  border-radius: 205px;
+  box-shadow: 0 0 5px aqua ,0 0 25px aqua,0 0 50px aqua,0 0 10px aqua,inset 0 0 5px aqua ,inset 0 0 25px aqua,inset 0 0 50px aqua,inset 0 0 10px aqua;
+  width: 204px;
+}
+.fg img{
+  position: absolute;
+  top: 25px;
+  width: 320px;
+  left: 10px;
+}
+.gj{
+  margin: 2px 30px;
+}
+.it a i{
+  padding: 14px;
+}
+.p2{
+  font-size: 18px;
+}
+.fgj{
+  font-size: 19px;
+  width: 385px;
+  padding: 16px;
+  margin: 32px;
+  border: none;
+  border-radius: 27px;
+  box-shadow: 0 0 5px aqua ,0 0 25px aqua,0 0 10px aqua,0 0 10px aqua;
+}
+.muj{
+  width: 263px;
+  left: 37px;
+  position: relative;
+  display: inline;
+}
+.line{
+  width: 293px;
+  height: 13px;
+  background-color: rgb(48, 43, 43);
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  margin-bottom: 45px;
+}
+.sql{
+  margin: 30px 50px;
+  width: 260px;
+  height: 310px;
+  box-shadow: 0 0 5px aqua ,0 0 15px aqua,0 0 10px aqua,0 0 10px aqua;
+  border-radius: 10px;
+}
+.cs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+textarea{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 269px;
+  height: 155px;
+}
+.ead{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px
+}
+.loso{
+  position: absolute;
+  margin-top: -448px;
+  margin-left: -62px;
+}
+/**/
+.logo{
+ display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+.dh{
+  background: darkblue;
+  width: 162px;
+  padding: 10px;
+}
+.exe{
+  display: inline;
+}
+.dl{
+  display: none;
+}
+nav{margin: 0;}
+.la .gj{
+  margin-left: 90px;
+
+}
+
