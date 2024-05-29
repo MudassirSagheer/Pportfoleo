@@ -112,10 +112,12 @@ textarea{
   width: 100vw;
 }
 .dh{
- background: darkblue;
+background: #2d2d40;
   width: 112px;
   padding: 10px;
   margin-left: -105px;
+  border: none;
+  border-radius: 19px;
 }
 .exe{
   display: inline;
